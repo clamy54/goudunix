@@ -1,0 +1,7 @@
+# Thin C++ shim that loads goudupackages.qml (Calamares 3.4 has no pure-QML
+# interface).
+---
+type:       "viewmodule"
+name:       "goudupackages"
+interface:  "qtplugin"
+load:       "libcalamares_viewmodule_goudupackages.so"

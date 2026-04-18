@@ -1,0 +1,9 @@
+# Build output
+/result/
+/result-*/
+
+# Internal rebuild notes
+installer/REBUILD.md
+
+# Install logs
+session.log

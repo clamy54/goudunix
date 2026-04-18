@@ -1,0 +1,38 @@
+# Goudunix branding for Calamares.
+---
+componentName: goudunix
+
+welcomeStyleCalamares: false
+welcomeExpandingLogo: true
+
+windowExpanding: normal
+windowSize: 900px,550px
+windowPlacement: center
+
+strings:
+    productName:         Goudunix
+    shortProductName:    Goudunix
+    version:             1.0 (NixOS 25.11)
+    shortVersion:        1.0
+    versionedName:       Goudunix 1.0
+    shortVersionedName:  Goudunix 1.0
+    bootloaderEntryName: Goudunix
+    productUrl:          https://nixos.org/
+    supportUrl:          https://nixos.org/community/
+    knownIssuesUrl:      https://github.com/NixOS/nixpkgs/issues
+    releaseNotesUrl:     https://nixos.org/manual/nixos/stable/release-notes
+
+# Uses upstream NixOS snowflake for now. Drop a Goudunix logo here to override.
+images:
+    productIcon:         "nix-snowflake.svg"
+    productLogo:         "white.png"
+    productWelcome:      "nix-snowflake.svg"
+
+slideshow:               "show.qml"
+slideshowAPI:            2
+
+style:
+   SidebarBackground:        "#2B8B8A"
+   SidebarText:              "#FFFFFF"
+   SidebarTextCurrent:       "#292F34"
+   SidebarBackgroundCurrent: "#7EBAE4"

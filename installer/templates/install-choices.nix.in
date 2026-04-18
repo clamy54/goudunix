@@ -1,0 +1,27 @@
+# install-choices.nix - written by the Goudunix installer (Calamares nixos job)
+# from the goudu.* Global Storage keys set by the goudupackages QML view and
+# the lspci GPU autodetection.
+#
+# SAFE TO HAND-EDIT: this file is regenerated only at install time. On a
+# running system, `nixos-rebuild switch` will pick up any changes you make.
+#
+# Template placeholders (`${name}`) are substituted by main.py. Blocks left
+# empty mean the corresponding category had no selection.
+
+{ config, lib, pkgs, ... }:
+
+{
+  # ── GPU (autodetected) ────────────────────────
+${gpu_block}
+  # ── VM guest ──────────────────────────────────
+${vm_guest_block}
+  # ── VM host ───────────────────────────────────
+${vm_host_block}
+  # ── Container runtime ─────────────────────────
+${container_block}
+  # ── Default browser (Cinnamon taskbar pin) ────
+  # Wires the chosen browser's .desktop into the stable
+  # "default-browser.desktop" alias used by modules/default-apps.nix to
+  # pin the panel. Left empty → no browser pin (terminal still pinned).
+${browser_block}
+}
