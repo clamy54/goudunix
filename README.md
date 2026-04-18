@@ -1,5 +1,7 @@
 # Goudunix
 
+![Goudunix screenshot](./screenshot.png)
+
 Goudunix is a ready-to-use NixOS system based on the Cinnamon desktop.
 It borrows some of the hardening work from
 [Bureautix](https://github.com/cloud-gouv/bureautix-example) and
