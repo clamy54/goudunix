@@ -1,4 +1,4 @@
-# Goudunix Installer
+# Goudunix
 
 Goudunix is a ready-to-use NixOS system based on the Cinnamon desktop.
 It borrows some of the hardening work from
